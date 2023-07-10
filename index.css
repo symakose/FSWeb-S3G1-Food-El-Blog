@@ -46,6 +46,17 @@ img {
   border-radius: 10px;
 }
 
+.Navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
 .content-row {
   display: flex;
 }
@@ -74,7 +85,7 @@ img {
 
 .container header nav a:hover {
   background: white;
-  color: yellow;
+  color: #e79947;
   /*======= background property yaratın ve değeri white olsun.  Sonra, color property yaratın ve değerini yapın. */
 }
 
